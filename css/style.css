@@ -25,11 +25,14 @@
     background-image: url(../img/02.png);
 }
 
+#converse {
+    background-image: url(../img/03.png);
+}
 
 .shoes {
     position: relative;
     left: 50%;
-    top: 30%;
+    top: 40%;
     transform: translate(-50%, -50%);
     width: 45%;
     height: 60vh;
@@ -43,16 +46,26 @@
     background-color: green;
 }
 
+.yellow {
+    background-color: yellow;
+}
+
 .text-shoes {
-    color: yellow;
     position: absolute;
     font-size: 2em;
     left: 50%;
-    top: 65%;
+    top: 75%;
     transform: translate(-50%, -50%);
+}
+
+.yellow-t {
+    color: yellow;
+}
+
+.green-t {
+    color: green;
 }
 
 #blue {
     background-image: url(../img/01.png);
-    width: ;
 }
