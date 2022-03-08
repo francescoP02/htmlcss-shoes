@@ -6,6 +6,35 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
+ul {
+    list-style: none;
+}
+
+/* NAv */
+
+.menu {
+    position: fixed;
+    top: 5%;
+    right: 2%;
+    color: black;
+    z-index: 100;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    background-color: white;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+li {
+    border: 50px;
+    display: inline-block;
+}
+
 /* SHOES */
 
 .shoes-container {
