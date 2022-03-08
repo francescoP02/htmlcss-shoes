@@ -8,6 +8,10 @@
 
 /* COMMON */
 
+html {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 ul {
     list-style: none;
 }
@@ -85,6 +89,7 @@ li {
     left: 50%;
     top: 75%;
     transform: translate(-50%, -50%);
+    text-transform: uppercase;
 }
 
 .yellow-t {
