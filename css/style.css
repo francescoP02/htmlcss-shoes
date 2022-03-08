@@ -21,6 +21,10 @@
     background-image: url(../img/01.png);
 }
 
+#tommy {
+    background-image: url(../img/02.png);
+}
+
 
 .shoes {
     position: relative;
@@ -35,6 +39,9 @@
     background-color: red;
 }
 
+.green {
+    background-color: green;
+}
 
 .text-shoes {
     color: yellow;
