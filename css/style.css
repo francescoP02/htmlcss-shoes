@@ -10,6 +10,7 @@
 
 html {
     font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -90,6 +91,14 @@ li {
     top: 75%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
+}
+
+.text-shoes-2 {
+    position: absolute;
+    font-size: 2em;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
 }
 
 .yellow-t {
