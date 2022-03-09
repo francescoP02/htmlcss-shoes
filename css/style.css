@@ -44,20 +44,17 @@ li {
 
 .shoes-container {
     position: relative;
-    height: 100vh;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    height: 100vh;
 }
 
 .shoes {
-    position: relative;
+    position: absolute;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    height: 65vh;
+    text-align: center;
 }
 
 .shoes img {
@@ -77,20 +74,8 @@ li {
 }
 
 .text-shoes {
-    position: absolute;
     font-size: 2em;
-    left: 50%;
-    top: 75vh;
-    transform: translate(-50%, -50%);
     text-transform: uppercase;
-}
-
-.text-shoes-2 {
-    position: absolute;
-    font-size: 2em;
-    left: 50%;
-    top: 80vh;
-    transform: translate(-50%, -50%);
 }
 
 .yellow-t {
